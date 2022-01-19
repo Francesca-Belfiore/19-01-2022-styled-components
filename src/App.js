@@ -7,7 +7,6 @@ import './App.css';
 
 const Header = styled.header`
     text-align: left;
-    width: 600px;
     margin: 42px auto;
     box-size: border-box;
     display: flex;
@@ -56,8 +55,7 @@ const Switch = styled.button`
 
 const BlogIntro = styled.div`
   text-align: left;
-  width: 600px;
-  margin: auto;
+  margin: auto auto 75px;
   height: 56px;
   display: flex;
     
@@ -82,7 +80,6 @@ const BlogIntro = styled.div`
 
 const Article = styled.article`
   text-align: left;
-  width: 600px;
   margin: 42px auto;
   box-size: border-box;
 
@@ -100,7 +97,6 @@ const Article = styled.article`
 `;
 
 const Footer = styled.footer`
-  width: 600px;
   margin: auto auto 42px;
   text-align: left;
   font-size: 18px;
@@ -168,6 +164,42 @@ function App() {
             <h1>The WET Codebase</h1>
             <small>July 13, 2020 • ☕️ 1 min read</small>
             <p>Come waste your time with me.</p>
+          </Article>
+
+          <Article>
+            <h1>Goodbye, Clean Code</h1>
+            <small>January 11, 2020 • ☕️ 5 min read</small>
+            <p>Let clean code guide you. Then let it go.</p>
+          </Article>
+
+          <Article>
+            <h1>My Decade in Review</h1>
+            <small>January 1, 2020 • ☕️☕️☕️☕️☕️ 26 min read</small>
+            <p>A personal reflection.</p>
+          </Article>
+
+          <Article>
+            <h1>What Are the React Team Principles?</h1>
+            <small>December 25, 2019 • ☕️ 5 min read</small>
+            <p>UI Before API.</p>
+          </Article>
+
+          <Article>
+            <h1>Why Do React Elements Have a $$typeof Property?</h1>
+            <small>December 3, 2018 • ☕️ 5 min read</small>
+            <p>It has something to do with security.</p>
+          </Article>
+
+          <Article>
+            <h1>How Does React Tell a Class from a Function?</h1>
+            <small>December 2, 2018 • ☕️☕️☕️ 16 min read</small>
+            <p>We talk about classes, new, instanceof, prototype chains, and API design.</p>
+          </Article>
+
+          <Article>
+            <h1>Why Do We Write super(props)?</h1>
+            <small>November 30, 2018 • ☕️ 5 min read</small>
+            <p>There’s a twist at the end.</p>
           </Article>
 
           <Footer>
