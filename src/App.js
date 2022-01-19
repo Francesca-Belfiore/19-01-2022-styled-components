@@ -171,8 +171,8 @@ function App() {
           </Article>
 
           <Footer>
-            <a href="">twitter</a> • <a href="">github</a> • <a href="">stack overflow</a>
-            <div><a href="">rss</a></div>
+            <a href="/19-01-2022-styled-components">twitter</a> • <a href="/19-01-2022-styled-components">github</a> • <a href="/19-01-2022-styled-components">stack overflow</a>
+            <div><a href="/19-01-2022-styled-components">rss</a></div>
           </Footer>
         </div>
       </>
