@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
-import {ThemeProvider} from "styled-components";
+import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./components/Globalstyle";
 import { lightTheme, darkTheme } from "./components/Themes"
 import './App.css';
@@ -72,10 +72,6 @@ const BlogIntro = styled.div`
     border-radius: 50%;
     margin-right: 14px;
   }
-
-  a {
-    color: ${({ theme }) => theme.link};
-  }
 `;
 
 const Article = styled.article`
@@ -87,7 +83,6 @@ const Article = styled.article`
     font-size: 1.75rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
-    color: ${({ theme }) => theme.link};
     margin: 56px 0 7px;
   }
 
@@ -101,16 +96,8 @@ const Footer = styled.footer`
   text-align: left;
   font-size: 18px;
 
-  a {
-    color: ${({ theme }) => theme.link};
-
-    &:hover {
-      text-decoration: none;
-    }
-
-  &:active {
-    color: ${({ theme }) => theme.link};
-    }
+  a:hover {
+    text-decoration: none;
   }
 
   div {
